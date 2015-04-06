@@ -1,0 +1,183 @@
+name: Akron, population: 703,200, state: OH, state_id: 35
+name: Albany-Schenectady-Troy, population: 870,716, state: NY, state_id: 32
+name: Albuquerque, population: 887,077, state: NM, state_id: 31
+name: Allentown-Bethlehem-Easton, population: 821,173, state: NJ, state_id: 30
+name: Anchorage, population: 380,821, state: AK, state_id: 1
+name: Ann Arbor, population: 344,791, state: MI, state_id: 22
+name: Asheville, population: 424,858, state: NC, state_id: 33
+name: Atlanta-Sandy Springs-Marietta, population: 5,268,860, state: GA, state_id: 10
+name: Atlantic City-Hammonton, population: 274,549, state: NJ, state_id: 30
+name: Augusta-Richmond County, population: 556,877, state: SC, state_id: 40
+name: Austin-Round Rock-San Marcos, population: 1,716,289, state: TX, state_id: 43
+name: Bakersfield-Delano, population: 839,631, state: CA, state_id: 5
+name: Baltimore-Towson, population: 2,710,489, state: MD, state_id: 20
+name: Baton Rouge, population: 802,484, state: LA, state_id: 18
+name: Beaumont-Port Arthur, population: 388,745, state: TX, state_id: 43
+name: Binghamton, population: 251,725, state: NY, state_id: 32
+name: Birmingham-Hoover, population: 1,128,047, state: AL, state_id: 2
+name: Boise City-Nampa, population: 616,561, state: ID, state_id: 12
+name: Boston-Cambridge-Quincy, population: 4,552,402, state: NH, state_id: 29
+name: Boulder, population: 294,567, state: CO, state_id: 6
+name: Bremerton-Silverdale, population: 251,133, state: WA, state_id: 47
+name: Bridgeport-Stamford-Norwalk, population: 916,829, state: CT, state_id: 7
+name: Brownsville-Harlingen, population: 406,220, state: TX, state_id: 43
+name: Buffalo-Niagara Falls, population: 1,135,509, state: NY, state_id: 32
+name: Canton-Massillon, population: 404,422, state: OH, state_id: 35
+name: Cape Coral-Fort Myers, population: 618,754, state: FL, state_id: 9
+name: Cedar Rapids, population: 257,940, state: IA, state_id: 15
+name: Charleston, population: 304,284, state: WV, state_id: 48
+name: Charleston-North Charleston-Summerville, population: 664,607, state: SC, state_id: 40
+name: Charlotte-Gastonia-Rock Hill, population: 1,758,038, state: SC, state_id: 40
+name: Chattanooga, population: 528,143, state: GA, state_id: 10
+name: Chicago-Joliet-Naperville, population: 9,461,105, state: WI, state_id: 49
+name: Cincinnati-Middletown, population: 2,130,151, state: IN, state_id: 14
+name: Clarksville, population: 273,949, state: KY, state_id: 17
+name: Cleveland-Elyria-Mentor, population: 2,077,240, state: OH, state_id: 35
+name: Colorado Springs, population: 645,613, state: CO, state_id: 6
+name: Columbia, population: 767,598, state: SC, state_id: 40
+name: Columbus, population: 294,865, state: AL, state_id: 2
+name: Columbus, population: 1,836,536, state: OH, state_id: 35
+name: Corpus Christi, population: 428,185, state: TX, state_id: 43
+name: Dallas-Fort Worth-Arlington, population: 6,371,773, state: TX, state_id: 43
+name: Davenport-Moline-Rock Island, population: 379,690, state: IL, state_id: 13
+name: Dayton, population: 841,502, state: OH, state_id: 35
+name: Deltona-Daytona Beach-Ormond Beach, population: 494,593, state: FL, state_id: 9
+name: Denver-Aurora-Broomfield, population: 2,543,482, state: CO, state_id: 6
+name: Des Moines-West Des Moines, population: 569,633, state: IA, state_id: 15
+name: Detroit-Warren-Livonia, population: 4,296,250, state: MI, state_id: 22
+name: Duluth, population: 279,771, state: WI, state_id: 49
+name: Durham-Chapel Hill, population: 504,357, state: NC, state_id: 33
+name: El Paso, population: 800,647, state: TX, state_id: 43
+name: Erie, population: 280,566, state: PA, state_id: 38
+name: Eugene-Springfield, population: 351,715, state: OR, state_id: 37
+name: Evansville, population: 358,676, state: KY, state_id: 17
+name: Fayetteville, population: 366,383, state: NC, state_id: 33
+name: Fayetteville-Springdale-Rogers, population: 463,204, state: MO, state_id: 25
+name: Flint, population: 425,790, state: MI, state_id: 22
+name: Fort Collins-Loveland, population: 299,630, state: CO, state_id: 6
+name: Fort Smith, population: 298,592, state: OK, state_id: 36
+name: Fort Wayne, population: 416,257, state: IN, state_id: 14
+name: Fresno, population: 930,450, state: CA, state_id: 5
+name: Gainesville, population: 264,275, state: FL, state_id: 9
+name: Grand Rapids-Wyoming, population: 774,160, state: MI, state_id: 22
+name: Greeley, population: 252,825, state: CO, state_id: 6
+name: Green Bay, population: 306,241, state: WI, state_id: 49
+name: Greensboro-High Point, population: 723,801, state: NC, state_id: 33
+name: Greenville-Mauldin-Easley, population: 636,986, state: SC, state_id: 40
+name: Hagerstown-Martinsburg, population: 269,140, state: WV, state_id: 48
+name: Harrisburg-Carlisle, population: 549,475, state: PA, state_id: 38
+name: Hartford-West Hartford-East Hartford, population: 1,212,381, state: CT, state_id: 7
+name: Hickory-Lenoir-Morganton, population: 365,497, state: NC, state_id: 33
+name: Holland-Grand Haven, population: 263,801, state: MI, state_id: 22
+name: Honolulu, population: 953,207, state: HI, state_id: 11
+name: Houston-Sugar Land-Baytown, population: 5,946,800, state: TX, state_id: 43
+name: Huntington-Ashland, population: 287,702, state: OH, state_id: 35
+name: Huntsville, population: 417,593, state: AL, state_id: 2
+name: Indianapolis-Carmel, population: 1,756,241, state: IN, state_id: 14
+name: Jackson, population: 539,057, state: MS, state_id: 24
+name: Jacksonville, population: 1,345,596, state: FL, state_id: 9
+name: Kalamazoo-Portage, population: 326,589, state: MI, state_id: 22
+name: Kansas City, population: 2,035,334, state: KS, state_id: 16
+name: Kennewick-Pasco-Richland, population: 253,340, state: WA, state_id: 47
+name: Killeen-Temple-Fort Hood, population: 405,300, state: TX, state_id: 43
+name: Kingsport-Bristol-Bristol, population: 309,544, state: VA, state_id: 46
+name: Knoxville, population: 698,030, state: TN, state_id: 42
+name: Lafayette, population: 273,738, state: LA, state_id: 18
+name: Lakeland-Winter Haven, population: 602,095, state: FL, state_id: 9
+name: Lancaster, population: 519,445, state: PA, state_id: 38
+name: Lansing-East Lansing, population: 464,036, state: MI, state_id: 22
+name: Laredo, population: 250,304, state: TX, state_id: 43
+name: Las Vegas-Paradise, population: 1,951,269, state: NV, state_id: 28
+name: Lexington-Fayette, population: 472,099, state: KY, state_id: 17
+name: Lincoln, population: 302,157, state: NE, state_id: 27
+name: Little Rock-North Little Rock-Conway, population: 699,757, state: AR, state_id: 4
+name: Los Angeles-Long Beach-Santa Ana, population: 12,828,837, state: CA, state_id: 5
+name: LouisvilleJefferson County, population: 1,283,566, state: IN, state_id: 14
+name: Lubbock, population: 284,890, state: TX, state_id: 43
+name: Lynchburg, population: 252,634, state: VA, state_id: 46
+name: Madison, population: 568,593, state: WI, state_id: 49
+name: Manchester-Nashua, population: 400,721, state: NH, state_id: 29
+name: McAllen-Edinburg-Mission, population: 774,769, state: TX, state_id: 43
+name: Memphis, population: 1,316,100, state: AR, state_id: 4
+name: Merced, population: 255,793, state: CA, state_id: 5
+name: Miami-Fort Lauderdale-Pompano Beach, population: 5,564,635, state: FL, state_id: 9
+name: Milwaukee-Waukesha-West Allis, population: 1,555,908, state: WI, state_id: 49
+name: Minneapolis-St. Paul-Bloomington, population: 3,279,833, state: WI, state_id: 49
+name: Mobile, population: 412,992, state: AL, state_id: 2
+name: Modesto, population: 514,453, state: CA, state_id: 5
+name: Montgomery, population: 374,536, state: AL, state_id: 2
+name: Myrtle Beach-North Myrtle Beach-Conway, population: 269,291, state: SC, state_id: 40
+name: Naples-Marco Island, population: 321,520, state: FL, state_id: 9
+name: Nashville-Davidson--Murfreesboro--Franklin, population: 1,589,934, state: TN, state_id: 42
+name: New Haven-Milford, population: 862,477, state: CT, state_id: 7
+name: New Orleans-Metairie-Kenner, population: 1,167,764, state: LA, state_id: 18
+name: New York-Northern New Jersey-Long Island, population: 18,897,109, state: PA, state_id: 38
+name: North Port-Bradenton-Sarasota, population: 702,281, state: FL, state_id: 9
+name: Norwich-New London, population: 274,055, state: CT, state_id: 7
+name: Ocala, population: 331,298, state: FL, state_id: 9
+name: Ogden-Clearfield, population: 547,184, state: UT, state_id: 44
+name: Oklahoma City, population: 1,252,987, state: OK, state_id: 36
+name: Olympia, population: 252,264, state: WA, state_id: 47
+name: Omaha-Council Bluffs, population: 865,350, state: IA, state_id: 15
+name: Orlando-Kissimmee-Sanford, population: 2,134,411, state: FL, state_id: 9
+name: Oxnard-Thousand Oaks-Ventura, population: 823,318, state: CA, state_id: 5
+name: Palm Bay-Melbourne-Titusville, population: 543,376, state: FL, state_id: 9
+name: Pensacola-Ferry Pass-Brent, population: 448,991, state: FL, state_id: 9
+name: Peoria, population: 379,186, state: IL, state_id: 13
+name: Philadelphia-Camden-Wilmington, population: 5,965,343, state: MD, state_id: 20
+name: Phoenix-Mesa-Glendale, population: 4,192,887, state: AZ, state_id: 3
+name: Pittsburgh, population: 2,356,285, state: PA, state_id: 38
+name: Portland-South Portland-Biddeford, population: 514,098, state: ME, state_id: 19
+name: Portland-Vancouver-Hillsboro, population: 2,226,009, state: WA, state_id: 47
+name: Port St. Lucie, population: 424,107, state: FL, state_id: 9
+name: Poughkeepsie-Newburgh-Middletown, population: 670,301, state: NY, state_id: 32
+name: Providence-New Bedford-Fall River, population: 1,600,852, state: MA, state_id: 21
+name: Provo-Orem, population: 526,810, state: UT, state_id: 44
+name: Raleigh-Cary, population: 1,130,490, state: NC, state_id: 33
+name: Reading, population: 411,442, state: PA, state_id: 38
+name: Reno-Sparks, population: 425,417, state: NV, state_id: 28
+name: Richmond, population: 1,258,251, state: VA, state_id: 46
+name: Riverside-San Bernardino-Ontario, population: 4,224,851, state: CA, state_id: 5
+name: Roanoke, population: 308,707, state: VA, state_id: 46
+name: Rochester, population: 1,054,323, state: NY, state_id: 32
+name: Rockford, population: 349,431, state: IL, state_id: 13
+name: Sacramento--Arden-Arcade--Roseville, population: 2,149,127, state: CA, state_id: 5
+name: St. Louis, population: 2,812,896, state: IL, state_id: 13
+name: Salem, population: 390,738, state: OR, state_id: 37
+name: Salinas, population: 415,057, state: CA, state_id: 5
+name: Salt Lake City, population: 1,124,197, state: UT, state_id: 44
+name: San Antonio-New Braunfels, population: 2,142,508, state: TX, state_id: 43
+name: San Diego-Carlsbad-San Marcos, population: 3,095,313, state: CA, state_id: 5
+name: San Francisco-Oakland-Fremont, population: 4,335,391, state: CA, state_id: 5
+name: San Jose-Sunnyvale-Santa Clara, population: 1,836,911, state: CA, state_id: 5
+name: San Luis Obispo-Paso Robles, population: 269,637, state: CA, state_id: 5
+name: Santa Barbara-Santa Maria-Goleta, population: 423,895, state: CA, state_id: 5
+name: Santa Cruz-Watsonville, population: 262,382, state: CA, state_id: 5
+name: Santa Rosa-Petaluma, population: 483,878, state: CA, state_id: 5
+name: Savannah, population: 347,611, state: GA, state_id: 10
+name: Scranton--Wilkes-Barre, population: 563,631, state: PA, state_id: 38
+name: Seattle-Tacoma-Bellevue, population: 3,439,809, state: WA, state_id: 47
+name: Shreveport-Bossier City, population: 398,604, state: LA, state_id: 18
+name: South Bend-Mishawaka, population: 319,224, state: MI, state_id: 22
+name: Spartanburg, population: 284,307, state: SC, state_id: 40
+name: Spokane, population: 471,221, state: WA, state_id: 47
+name: Springfield, population: 692,942, state: MA, state_id: 21
+name: Springfield, population: 436,712, state: MO, state_id: 25
+name: Stockton, population: 685,306, state: CA, state_id: 5
+name: Syracuse, population: 662,577, state: NY, state_id: 32
+name: Tallahassee, population: 367,413, state: FL, state_id: 9
+name: Tampa-St. Petersburg-Clearwater, population: 2,783,243, state: FL, state_id: 9
+name: Toledo, population: 651,429, state: OH, state_id: 35
+name: Trenton-Ewing, population: 366,513, state: NJ, state_id: 30
+name: Tucson, population: 980,263, state: AZ, state_id: 3
+name: Tulsa, population: 937,478, state: OK, state_id: 36
+name: Utica-Rome, population: 299,397, state: NY, state_id: 32
+name: Vallejo-Fairfield, population: 413,344, state: CA, state_id: 5
+name: Virginia Beach-Norfolk-Newport News, population: 1,671,683, state: NC, state_id: 33
+name: Visalia-Porterville, population: 442,179, state: CA, state_id: 5
+name: Washington-Arlington-Alexandria, population: 5,582,170, state: WV, state_id: 48
+name: Wichita, population: 623,061, state: KS, state_id: 16
+name: Wilmington, population: 362,315, state: NC, state_id: 33
+name: Winston-Salem, population: 477,717, state: NC, state_id: 33
+name: Worcester, population: 798,552, state: MA, state_id: 21
+name: York-Hanover, population: 434,972, state: PA, state_id: 38
