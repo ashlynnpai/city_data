@@ -1,5 +1,52 @@
-import csv
 
+
+def population_parser():
+    #Open a csv data file and parses the data into Ruby hash format along with the KEYS from the dictionary of state abbreviations 
+    
+    #A dictionary of keys that are integers and values that are state abbreviations plus DC alphabetized
+    
+    import csv
+    
+    abbs = [line.strip() for line in open('abbr.txt')]
+    
+    nums = [n for n in range(1, 52)]
+    
+    abb_hash = dict(zip(nums, abbs))
+    
+    main_data = []
+    cities = []
+    f = open("citypop.csv")
+    csv_f = csv.reader(f)
+    
+    for row in csv_f:
+        if len(row) > 4:
+            state_abb = row[0][-2:]
+            state_id = [key for key,value in abb_hash.iteritems() if value == state_abb][0]
+            
+            #if the first hyphen occurs before the first comma, parse up to the first dash
+            #otherwise parse to the first comma
+            
+            if "-" in row[0] and row[0].find("-") < row[0].find(","):
+                comma = row[0].find("-")
+            else:    
+                comma = row[0].find(",")
+            city_parse = row[0][:comma]
+            cities.append(city_parse)
+            
+
+            population = row[3]
+            
+            main_data.append({"city":city_parse, "state":state_abb, "state_id": str(state_id), "population":population, "unemployment":0.0})
+            hash_format = "name: " + city_parse + ", population: " + population + ", state: " + state_abb + ", state_id: " + str(state_id)
+            
+            #if need to print to file
+            #city_file = open('cities.txt', 'a')
+            #print >>city_file, hash_format
+
+
+    return main_data
+    
+    
 def unemployment_parser():
     import json
     import unicodedata
@@ -46,62 +93,45 @@ def unemployment_parser():
 
 def main_parser():
         
-    #A dictionary of keys that are integers and values that are state abbreviations plus DC alphabetized 
-    
-    abbs = [line.strip() for line in open('abbr.txt')]
-    
-    nums = [n for n in range(1, 52)]
-    
-    abb_hash = dict(zip(nums, abbs))
-    
-    
-    
-    #Open a csv data file and parses the data into Ruby hash format along with the KEYS from the dictionary of state abbreviations 
-    
     main_data = []
-    cities = []
-    f = open("citypop.csv")
-    csv_f = csv.reader(f)
-    
-    for row in csv_f:
-        if len(row) > 4:
-            state_abb = row[0][-2:]
-            state_id = [key for key,value in abb_hash.iteritems() if value == state_abb][0]
-            
-            #if the first hyphen occurs before the first comma, parse up to the first dash
-            #otherwise parse to the first comma
-            
-            if "-" in row[0] and row[0].find("-") < row[0].find(","):
-                comma = row[0].find("-")
-            else:    
-                comma = row[0].find(",")
-            city_parse = row[0][:comma]
-            cities.append(city_parse)
 
-            population = row[3]
-            
-            main_data.append({"city":city_parse, "state":state_abb, "state_id": str(state_id), "population":population, "unemployment:":"NA"})
-            hash_format = "name: " + city_parse + ", population: " + population + ", state: " + state_abb + ", state_id: " + str(state_id)
+    unemp_data = unemployment_parser()
+    pop_data = population_parser()
 
-            
-            #if need to print to file
-            #city_file = open('cities.txt', 'a')
-            #print >>city_file, hash_format
 
-    shortest =  min(cities, key=len)
-    
+    for u in unemp_data:
+        for p in pop_data:
+            if u["city"] == p["city"] and u["state"] == p["state"]:
+                p["unemployment"] = u["unemployment"]
+                #print p
+                main_data.append(p)
+
+
+    print main_data
+
+
+main_parser()    
+
+
+#currently unused helper functions
+
+def find_duplicates(cities):
     #check for duplicate city names
     
     from collections import Counter
     for city in cities: 
         k = city[:3]
         duplicates = [k for k,v in Counter(cities).items() if v>1]
- 
-
-    unemp_data = unemployment_parser()
-
-    #check that duplicate cities get the right values inserted
+        
+    return duplicates    
+    
+def find_shortest(cities):    
+        
+    return min(cities, key=len)
+    
+def update_values_against_duplicates(unemp_data, main_data):
     #insert unemployment values for the cities that have them
+    #check that duplicate cities get the right values inserted
     
     for u in unemp_data:
         for m in main_data:
@@ -109,11 +139,7 @@ def main_parser():
                 if u["city"] == duplicate:
                     if u["city"] == m["city"] and u["state"] == m["state"]:
                         m["unemployment"] = u["unemployment"]
-                        #print m
+                        print m
                 elif u["city"] == m["city"]:
                     m["unemployment"] = u["unemployment"]
-                    #print m
-
-  
-            
-main_parser()    
+                    print m    
