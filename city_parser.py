@@ -1,4 +1,5 @@
-
+import unittest
+import mock
 
 def population_parser():
     #Open a csv data file and parses the data into Ruby hash format along with the KEYS from the dictionary of state abbreviations 
@@ -142,4 +143,23 @@ def update_values_against_duplicates(unemp_data, main_data):
                         print m
                 elif u["city"] == m["city"]:
                     m["unemployment"] = u["unemployment"]
-                    print m    
+                    print m   
+      
+class TestUM(unittest.TestCase):
+     
+    def setUp(self):
+        pass
+    
+    def test_main_parser1(self): 
+
+        mock.unemployment_parser.return_value = [{'city': 'Austin', 'state': 'TX', 'unemployment': ' 3.7'}, {'city': 'Boulder', 'state': 'CO', 'unemployment': ' 3.7'}, 
+        {'city': 'College Station', 'state': 'TX', 'unemployment': ' 3.7'}]   
+        mock.population_parser.return_value = [{'unemployment': 0.0, 'city': 'Austin', 'state': 'TX', 'population': '1,716,289', 'state_id': '43'}, 
+        {'unemployment': 0.0, 'city': 'Bakersfield', 'state': 'CA', 'population': '839,631', 'state_id': '5'}]
+        
+        self.assertEqual(main_parser(), [{'unemployment': 3.7, 'city': 'Austin', 'state': 'TX', 'population': '1,716,289', 'state_id': '43'}])
+            
+       
+        if __name__ == '__main__':
+            unittest.main(exit=False)              
+                    
